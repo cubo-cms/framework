@@ -1,0 +1,20 @@
+{
+  "name": "framework",
+  "version": "1.0.0",
+  "description": "Cubo CMS Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cubo-cms/framework.git"
+  },
+  "keywords": ["cms", "framework", "npm", "node", "javascript"],
+  "author": "Papiando <info@papiando.com>",
+  "license": "MIT license <https://cubo-cms.com/LICENSE.md>",
+  "bugs": {
+    "url": "https://github.com/cubo-cms/framework/issues"
+  },
+  "homepage": "https://cubo-cms.com"
+}
