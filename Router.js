@@ -19,7 +19,6 @@ module.exports = class Router {
   // @return: application data
   init(routes) {
     this.params = this.load(routes);
-    console.log(this.params);
   }
 
   // Load data, which can either be JSON or a file name containing JSON
