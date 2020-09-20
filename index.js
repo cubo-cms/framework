@@ -23,6 +23,6 @@ global.app = new Framework.Application();
 const server = require('http');
 
 server.createServer(function(request, result) {
-  result.writeHead(200, { "Content-Type", "text/html" });
-  result.end(app.run());
+  result.writeHead(200, { "Content-Type": "text/html" });
+  result.end(app.run(request));
 }).listen(8080);
