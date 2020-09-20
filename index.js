@@ -12,10 +12,17 @@ global.app = new Framework.Application();
 
 //console.log(app);
 
-req = { "url": "https://papiando.com/user/papiando?format=json" };
+//req = { "url": "https://papiando.com/user/papiando?format=json" };
 
-console.log(req.url);
+//console.log(req.url);
 
-app.router.parse(req.url);
+//app.router.parse(req.url);
 
-console.log(app.router);
+//console.log(app.router);
+
+const server = require('http');
+
+server.createServer(function(request, result) {
+  result.writeHead(200, { "Content-Type", "text/html" });
+  result.end(app.run());
+}).listen(8080);
