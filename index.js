@@ -7,8 +7,8 @@
   * @description    Default document
   **/
 
-// Autoload classes and functions
-require('./.autoload');
+// Autoload library
+require('./lib');
 
 /*
 
