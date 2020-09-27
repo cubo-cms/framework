@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/cubo-cms/framework.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": ["cms", "framework", "npm", "node", "javascript"],
   "author": "Papiando <info@papiando.com>",
   "license": "MIT license <https://cubo-cms.com/LICENSE.md>",
