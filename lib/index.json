@@ -3,7 +3,7 @@
     "application": [ "Application" ],
     "controller": [ "Controller" ],
     "driver": [ "Driver" ],
-    "param": [ "Params" ],
+    "param": [ "Param" ],
     "router": [ "Router" ]
   }
 }

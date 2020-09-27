@@ -58,7 +58,7 @@ if(typeof(assets) === 'object') {
   for(const [asset, libraries] of Object.entries(assets)) {
     lib[asset] = { };
     if(typeof(libraries) === 'object') {
-      for(var [library, objects] of Object.entries(libraries)) {
+      for(const [library, objects] of Object.entries(libraries)) {
         switch(typeof(objects)) {
           case 'object':
             for(var object of objects)
