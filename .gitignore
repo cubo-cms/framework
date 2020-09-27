@@ -1,8 +1,9 @@
 # Development
+.config/
+.application.json
+node_modules/
 test/
 example/
-.config
-.init.json
 
 # Logs
 logs
