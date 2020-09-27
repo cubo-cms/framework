@@ -1,9 +1,9 @@
 {
   "framework": {
-    "Application": [ "Application" ],
-    "Controller": [ "Controller" ],
-    "Driver": [ "Driver" ],
-    "Params": [ "Params" ],
-    "Router": [ "Router" ]
+    "application": [ "Application" ],
+    "controller": [ "Controller" ],
+    "driver": [ "Driver" ],
+    "param": [ "Params" ],
+    "router": [ "Router" ]
   }
 }

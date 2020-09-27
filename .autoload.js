@@ -4,7 +4,7 @@
   * @license        MIT license <https://cubo-cms.com/LICENSE.md>
   * @author         Papiando <info@papiando.com>
   * @module         framework/.classloader
-  * @description    Class loader
+  * @description    Autoloader
   **/
 const moduleName = 'framework';
 
