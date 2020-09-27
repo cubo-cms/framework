@@ -1,5 +1,5 @@
 .config/
-.init.json
+.application.json
 node_modules/
 test/
 example/
