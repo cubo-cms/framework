@@ -8,7 +8,7 @@
   **/
 
 // Autoload library
-require('./lib');
+require('./.autoload');
 
 /*
 
