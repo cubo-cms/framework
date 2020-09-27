@@ -14,6 +14,8 @@ if(typeof(global.Cubo) == 'undefined') global.Cubo = {};
 // Load assets
 const assets = require('./lib');
 
+console.log(assets);
+
 // Other required modules
 const path = require('path');
 
@@ -28,29 +30,8 @@ function loadObject(lib, asset, library, object) {
     lib[asset][object] = require('./lib/' + asset + '/' + library);
     return true;
   } catch(error) {
-    console.log(error);
+    log.error(error);
     return false;
-  }
-}
-
-function log(message) {
-  if(typeof(LOGLEVEL) !== 'undefined') {
-    switch(LOGLEVEL) {
-      case 1:
-        if(["error"].includes(message.type))
-          console.log(message);
-        break;
-      case 2:
-        if(["error", "warning"].includes(message.type))
-          console.log(message);
-        break;
-      case 3:
-        if(["error", "warning", "information"].includes(message.type))
-          console.log(message);
-        break;
-      case 4:
-        console.log(message);
-    }
   }
 }
 
@@ -62,29 +43,16 @@ if(typeof(assets) === 'object') {
         switch(typeof(objects)) {
           case 'object':
             for(var object of objects)
-              if(loadObject(lib, asset, library, object))
-                log({"type": "information", "module": moduleName, "description": `Successfully loaded ${asset} \"${library}\"`});
-              else
-                log({"type": "warning", "module": moduleName, "description": `Could not find ${asset} \"${library}\"`});
+              loadObject(lib, asset, library, object);
             break;
           case 'string':
-            if(loadObject(lib, asset, library, objects))
-              log({"type": "information", "module": moduleName, "description": `Successfully loaded ${asset} \"${library}\"`});
-            else
-              log({"type": "warning", "module": moduleName, "description": `Could not find ${asset} \"${library}\"`});
-            break;
-          default:
-            log({ "type": "warning", "module": moduleName, "description": `Array expected` });
+            loadObject(lib, asset, library, objects);
         }
       }
-    } else
-      log({ "type": "warning", "module": moduleName, "description": `Object expected` });
+    }
     module.exports = lib[asset];
-    log({"type": "information", "module": moduleName, "description": `Successfully loaded asset \"${asset}\"`});
     if(typeof(Cubo) == 'object') {
       Object.assign(Cubo, lib[asset]);
-      log({"type": "information", "module": moduleName, "description": `Successfully merged with global asset`});
     }
   }
-} else
-  log({ "type": "warning", "module": moduleName, "description": `Object expected` });
+}
