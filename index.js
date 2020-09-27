@@ -7,7 +7,7 @@
   * @description    Default document
   **/
 
-// Autoload library
+// Autoload this module
 require('./.autoload');
 
 /*
