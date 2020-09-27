@@ -3,6 +3,7 @@
     "application": [ "Application" ],
     "controller": [ "Controller" ],
     "driver": [ "Driver" ],
+    "log": [ "Log" ],
     "param": [ "Param" ],
     "router": [ "Router" ]
   }
