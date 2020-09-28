@@ -14,8 +14,6 @@ if(typeof(global.Cubo) == 'undefined') global.Cubo = {};
 // Load assets
 const assets = require('./lib');
 
-console.log(assets);
-
 // Other required modules
 const path = require('path');
 
@@ -30,7 +28,6 @@ function loadObject(lib, asset, library, object) {
     lib[asset][object] = require('./lib/' + asset + '/' + library);
     return true;
   } catch(error) {
-    log.error(error);
     return false;
   }
 }
