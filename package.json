@@ -1,10 +1,10 @@
 {
   "name": "@cubo-cms/framework",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Cubo CMS Framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit"
   },
   "repository": {
     "type": "git",
