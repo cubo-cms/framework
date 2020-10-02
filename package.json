@@ -1,0 +1,31 @@
+{
+  "name": "@cubo-cms/framework",
+  "version": "0.0.9",
+  "description": "Cubo CMS Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cubo-cms/framework.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "cubo-cms",
+    "cms",
+    "mvc",
+    "framework",
+    "npm",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Papiando <info@papiando.com>",
+  "license": "MIT license <https://cubo-cms.com/LICENSE.md>",
+  "bugs": {
+    "url": "https://github.com/cubo-cms/framework/issues"
+  },
+  "homepage": "https://cubo-cms.com"
+}
