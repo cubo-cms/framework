@@ -1,0 +1,68 @@
+{
+  "@context": "https://cubo-cms.com/",
+  "data": [
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:none",
+      "@type": "AccessLevel",
+      "accesslevel": "none",
+      "description": "Item is inaccessible",
+      "name": "none",
+      "status": "published",
+      "title": "None"
+    },
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:public",
+      "@type": "AccessLevel",
+      "accesslevel": "public",
+      "description": "Item is accessible by everybody",
+      "name": "public",
+      "status": "published",
+      "title": "Public"
+    },
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:guest",
+      "@type": "AccessLevel",
+      "accesslevel": "public",
+      "description": "Item is accessible by guests",
+      "name": "guest",
+      "status": "published",
+      "title": "Guest"
+    },
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:authenticated",
+      "@type": "AccessLevel",
+      "accesslevel": "public",
+      "description": "Item is accessible by authenticated people",
+      "name": "authenticated",
+      "status": "published",
+      "title": "Authenticated"
+    },
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:private",
+      "@type": "AccessLevel",
+      "accesslevel": "public",
+      "description": "Item is accessible by people who know the URI",
+      "name": "private",
+      "status": "published",
+      "title": "Private"
+    },
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:owner",
+      "@type": "AccessLevel",
+      "accesslevel": "public",
+      "description": "Item is accessible by the owner",
+      "name": "owner",
+      "status": "published",
+      "title": "Owner"
+    },
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:administrator",
+      "@type": "AccessLevel",
+      "accesslevel": "none",
+      "description": "Item is accessible by administrators",
+      "name": "restricted",
+      "status": "published",
+      "title": "Restricted"
+    }
+  ]
+}
