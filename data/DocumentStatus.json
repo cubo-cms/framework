@@ -1,0 +1,41 @@
+{
+  "@context": "https://cubo-cms.com/DocumentStatus",
+  "@data": [
+    {
+      "@id": "https://cubo-cms.com/DocumentStatus:published",
+      "@type": "DocumentStatus",
+      "accesslevel": "public",
+      "description": "Item is published",
+      "name": "published",
+      "documentStatus": "published",
+      "title": "Published"
+    },
+    {
+      "@id": "https://cubo-cms.com/DocumentStatus:unpublished",
+      "@type": "DocumentStatus",
+      "accesslevel": "public",
+      "description": "Item is not published",
+      "name": "unpublished",
+      "documentStatus": "published",
+      "title": "Unpublished"
+    },
+    {
+      "@id": "https://cubo-cms.com/DocumentStatus:trashed",
+      "@type": "DocumentStatus",
+      "accesslevel": "public",
+      "description": "Item is trashed",
+      "name": "trashed",
+      "documentStatus": "published",
+      "title": "Trashed"
+    },
+    {
+      "@id": "https://cubo-cms.com/DocumentStatus:archived",
+      "@type": "DocumentStatus",
+      "accesslevel": "public",
+      "description": "Item is archived",
+      "name": "archived",
+      "documentStatus": "archived",
+      "title": "Archived"
+    }
+  ]
+}
