@@ -1,6 +1,7 @@
 {
-  "@context": "https://cubo-cms.com/AccessLevel",
-  "@data": [
+  "@id": "https://cubo-cms.com/AccessLevel",
+  "@context": "https://cubo-cms.com/Schema:AccessLevel",
+  "data": [
     {
       "@id": "https://cubo-cms.com/AccessLevel:none",
       "@type": "AccessLevel",

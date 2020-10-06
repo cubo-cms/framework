@@ -1,6 +1,7 @@
 {
-  "@context": "https://cubo-cms.com/DocumentStatus",
-  "@data": [
+  "@id": "https://cubo-cms.com/DocumentStatus",
+  "@context": "https://cubo-cms.com/Schema:DocumentStatus",
+  "data": [
     {
       "@id": "https://cubo-cms.com/DocumentStatus:published",
       "@type": "DocumentStatus",
