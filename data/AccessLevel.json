@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "accessLevel": "none",
@@ -49,3 +50,74 @@
     "title": "Restricted"
   }
 ]
+=======
+{
+  "@id": "https://cubo-cms.com/AccessLevel",
+  "@context": "https://cubo-cms.com/Schema:AccessLevel",
+  "data": [
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:none",
+      "@type": "AccessLevel",
+      "accessLevel": "none",
+      "description": "Item is inaccessible",
+      "name": "none",
+      "documentStatus": "published",
+      "title": "None"
+    },
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:public",
+      "@type": "AccessLevel",
+      "accessLevel": "public",
+      "description": "Item is accessible by everybody",
+      "name": "public",
+      "documentStatus": "published",
+      "title": "Public"
+    },
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:guest",
+      "@type": "AccessLevel",
+      "accessLevel": "public",
+      "description": "Item is accessible by guests",
+      "name": "guest",
+      "documentStatus": "published",
+      "title": "Guest"
+    },
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:authenticated",
+      "@type": "AccessLevel",
+      "accessLevel": "public",
+      "description": "Item is accessible by authenticated people",
+      "name": "authenticated",
+      "documentStatus": "published",
+      "title": "Authenticated"
+    },
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:private",
+      "@type": "AccessLevel",
+      "accessLevel": "public",
+      "description": "Item is accessible by people who know the URI",
+      "name": "private",
+      "documentStatus": "published",
+      "title": "Private"
+    },
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:owner",
+      "@type": "AccessLevel",
+      "accessLevel": "public",
+      "description": "Item is accessible by the owner",
+      "name": "owner",
+      "documentStatus": "published",
+      "title": "Owner"
+    },
+    {
+      "@id": "https://cubo-cms.com/AccessLevel:administrator",
+      "@type": "AccessLevel",
+      "accessLevel": "none",
+      "description": "Item is accessible by administrators",
+      "name": "restricted",
+      "documentStatus": "published",
+      "title": "Restricted"
+    }
+  ]
+}
+>>>>>>> bfc690f50fbd4a489fba0328266c527ce9b13f7d
