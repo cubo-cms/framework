@@ -1,0 +1,5 @@
+{
+  "key": "#/../.certs/pap006-privkey.pem",
+  "cert": "#/../.certs/pap006-cert.pem",
+  "port": 8443
+}

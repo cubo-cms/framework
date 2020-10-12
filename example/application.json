@@ -1,0 +1,16 @@
+{
+  "name": "cubo-cms",
+  "title": "Cubo CMS",
+  "description": "This is my first App",
+  "@data": {
+    "dataSource": "#/example/datasource.json",
+    "route": "#/example/route.json",
+    "server": "#/example/server.json",
+    "metadata": {
+      "author": "papiando"
+    },
+    "logging": {
+      "logLevel": "debug,error,success,warning"
+    }
+  }
+}

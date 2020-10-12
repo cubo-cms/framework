@@ -1,0 +1,15 @@
+{
+  "/": {
+    "regex": "^\\/$",
+    "controller": "Document"
+  },
+  "/{controller}": {
+    "regex": "^\\/([^/:]+)$",
+    "controller": "{controller}"
+  },
+  "/{controller}:{name}": {
+    "regex": "^\\/([^/:]+):([^/:]+)$",
+    "controller": "{controller}",
+    "name": "{name}"
+  }
+}
