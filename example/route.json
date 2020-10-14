@@ -4,12 +4,29 @@
     "controller": "Document"
   },
   "/{controller}": {
-    "regex": "^\\/([^/:]+)$",
+    "regex": "^\\/([^\\/:]+)$",
     "controller": "{controller}"
   },
-  "/{controller}:{name}": {
-    "regex": "^\\/([^/:]+):([^/:]+)$",
+  "/{controller}:{id}": {
+    "regex": "^\\/([^\\/:]+):([^\\/:]+)$",
     "controller": "{controller}",
-    "name": "{name}"
+    "id": "{id}"
+  },
+  "/{controller}/{filter}:{id}": {
+    "regex": "^\\/([^\\/:]+)\\/([^\\/:]+):([^\\/:]+)$",
+    "controller": "{controller}",
+    "filter": "{filter}",
+    "id": "{id}"
+  },
+  "/api/{controller}": {
+    "regex": "^\\/api/([^\\/:]+)$",
+    "controller": "{controller}",
+    "format": "json"
+  },
+  "/api/{controller}:{id}": {
+    "regex": "^\\/api/([^\\/:]+):([^\\/:]+)$",
+    "controller": "{controller}",
+    "id": "{id}",
+    "format": "json"
   }
 }
