@@ -1,8 +1,8 @@
 {
   "name": "@cubo-cms/framework",
   "type": "module",
-  "version": "0.0.13",
-  "description": "Cubo CMS Framework",
+  "version": "0.0.14",
+  "description": "Cubo CMS Framework Classes",
   "main": "index.mjs",
   "exports": {
     "import": "./index.mjs",
@@ -19,7 +19,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@cubo-cms/core": ">=0.0.5"
+    "@cubo-cms/core": ">=0.0.6"
   },
   "engines": {
     "node": ">=14.8"

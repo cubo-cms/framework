@@ -1,6 +1,4 @@
 {
-  "sources": {
-    "AccessLevel": { "uri": "#/data/AccessLevel.json", "readOnly": true },
-    "DocumentStatus": { "uri": "#/data/DocumentStatus.json", "readOnly": true }
-  }
+  "AccessLevel": { "uri": "#/data/AccessLevel.json", "readOnly": true },
+  "DocumentStatus": { "uri": "#/data/DocumentStatus.json", "readOnly": true }
 }
