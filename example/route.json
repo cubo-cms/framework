@@ -1,31 +1,31 @@
 {
   "/": {
     "regex": "^\\/$",
-    "controller": "Document"
+    "dataType": "Document"
   },
-  "/{controller}": {
+  "/{dataType}": {
     "regex": "^\\/([^\\/:]+)$",
-    "controller": "{controller}"
+    "dataType": "{dataType}"
   },
-  "/{controller}:{id}": {
+  "/{dataType}:{id}": {
     "regex": "^\\/([^\\/:]+):([^\\/:]+)$",
-    "controller": "{controller}",
+    "dataType": "{dataType}",
     "id": "{id}"
   },
-  "/{controller}/{filter}:{id}": {
+  "/{dataType}/{filter}:{id}": {
     "regex": "^\\/([^\\/:]+)\\/([^\\/:]+):([^\\/:]+)$",
-    "controller": "{controller}",
+    "dataType": "{dataType}",
     "filter": "{filter}",
     "id": "{id}"
   },
-  "/api/{controller}": {
+  "/api/{dataType}": {
     "regex": "^\\/api/([^\\/:]+)$",
-    "controller": "{controller}",
+    "dataType": "{dataType}",
     "format": "json"
   },
-  "/api/{controller}:{id}": {
+  "/api/{dataType}:{id}": {
     "regex": "^\\/api/([^\\/:]+):([^\\/:]+)$",
-    "controller": "{controller}",
+    "dataType": "{dataType}",
     "id": "{id}",
     "format": "json"
   }
