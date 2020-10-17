@@ -12,19 +12,35 @@
     "dataType": "{dataType}",
     "id": "{id}"
   },
+  "/{dataType}/:{id}": {
+    "regex": "^\\/([^\\/:]+)\\/:([^\\/:]+)$",
+    "dataType": "{dataType}",
+    "id": "{id}"
+  },
   "/{dataType}/{filter}:{id}": {
     "regex": "^\\/([^\\/:]+)\\/([^\\/:]+):([^\\/:]+)$",
     "dataType": "{dataType}",
     "filter": "{filter}",
     "id": "{id}"
   },
+  "/{dataType}/{filter}/:{id}": {
+    "regex": "^\\/([^\\/:]+)\\/([^\\/:]+)\\/:([^\\/:]+)$",
+    "dataType": "{dataType}",
+    "filter": "{filter}",
+    "id": "{id}"
+  },
+  "/User/login": {
+    "regex": "^\\/User\\/login$",
+    "dataType": "User",
+    "method": "login"
+  },
   "/api/{dataType}": {
-    "regex": "^\\/api/([^\\/:]+)$",
+    "regex": "^\\/api\\/([^\\/:]+)$",
     "dataType": "{dataType}",
     "format": "json"
   },
   "/api/{dataType}:{id}": {
-    "regex": "^\\/api/([^\\/:]+):([^\\/:]+)$",
+    "regex": "^\\/api\\/([^\\/:]+):([^\\/:]+)$",
     "dataType": "{dataType}",
     "id": "{id}",
     "format": "json"

@@ -1,4 +1,6 @@
 {
   "AccessLevel": { "uri": "#/data/AccessLevel.json", "readOnly": true },
-  "DocumentStatus": { "uri": "#/data/DocumentStatus.json", "readOnly": true }
+  "DocumentStatus": { "uri": "#/data/DocumentStatus.json", "readOnly": true },
+  "Session": { "uri": "#/data/Session.json", "readOnly": true },
+  "User": { "uri": "#/data/User.json", "readOnly": true }
 }

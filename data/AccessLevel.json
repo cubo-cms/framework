@@ -2,50 +2,50 @@
   {
     "accessLevel": "none",
     "description": "Item is inaccessible",
-    "name": "none",
+    "id": "none",
     "documentStatus": "published",
-    "title": "None"
+    "name": "None"
   },
   {
     "accessLevel": "public",
     "description": "Item is accessible by everybody",
-    "name": "public",
+    "id": "public",
     "documentStatus": "published",
-    "title": "Public"
+    "name": "Public"
   },
   {
     "accessLevel": "public",
     "description": "Item is accessible by guests",
-    "name": "guest",
+    "id": "guest",
     "documentStatus": "published",
-    "title": "Guest"
+    "name": "Guest"
   },
   {
     "accessLevel": "public",
     "description": "Item is accessible by authenticated people",
-    "name": "authenticated",
+    "id": "authenticated",
     "documentStatus": "published",
-    "title": "Authenticated"
+    "name": "Authenticated"
   },
   {
     "accessLevel": "public",
     "description": "Item is accessible by people who know the URI",
-    "name": "private",
+    "id": "private",
     "documentStatus": "published",
-    "title": "Private"
+    "name": "Private"
   },
   {
     "accessLevel": "public",
     "description": "Item is accessible by the owner",
-    "name": "owner",
+    "id": "owner",
     "documentStatus": "published",
-    "title": "Owner"
+    "name": "Owner"
   },
   {
     "accessLevel": "none",
     "description": "Item is accessible by administrators",
-    "name": "restricted",
+    "id": "restricted",
     "documentStatus": "published",
-    "title": "Restricted"
+    "name": "Restricted"
   }
 ]
