@@ -29,10 +29,14 @@
     "filter": "{filter}",
     "id": "{id}"
   },
-  "/User/login": {
-    "regex": "^\\/User\\/login$",
+  "/User/authenticate": {
+    "regex": "^\\/User\\/authenticate$",
     "dataType": "User",
-    "method": "login"
+    "method": "authenticate"
+  },
+  "/favicon.ico": {
+    "dataType": "AccessLevel",
+    "method": "skip"
   },
   "/api/{dataType}": {
     "regex": "^\\/api\\/([^\\/:]+)$",

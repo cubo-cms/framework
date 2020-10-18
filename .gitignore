@@ -1,5 +1,6 @@
 # Development
 .config/
+.cert/
 /application.json
 node_modules/
 test/
