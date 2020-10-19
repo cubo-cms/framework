@@ -10,6 +10,13 @@
   {
     "id": "administrator",
     "name": "Administrator",
-    "password": "71a5fc22ecf6cf6c3ec2bd8b5cce798e:8f59521173937e9cd11e6c73bdaaf19004bb2ba7cb78c050241d9ed69986b5338c259ac7373857773ead47a3cc06536f6b63b7c0ca4d827aadca9e79c96ba8f8"
+    "password": "71a5fc22ecf6cf6c3ec2bd8b5cce798e:8f59521173937e9cd11e6c73bdaaf19004bb2ba7cb78c050241d9ed69986b5338c259ac7373857773ead47a3cc06536f6b63b7c0ca4d827aadca9e79c96ba8f8",
+    "userRole": "administrator"
+  },
+  {
+    "id": "author",
+    "name": "Author",
+    "password": "71a5fc22ecf6cf6c3ec2bd8b5cce798e:8f59521173937e9cd11e6c73bdaaf19004bb2ba7cb78c050241d9ed69986b5338c259ac7373857773ead47a3cc06536f6b63b7c0ca4d827aadca9e79c96ba8f8",
+    "userRole": "author"
   }
 ]

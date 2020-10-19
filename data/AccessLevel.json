@@ -1,51 +1,82 @@
 [
   {
-    "accessLevel": "none",
-    "description": "Item is inaccessible",
-    "id": "none",
-    "documentStatus": "published",
-    "name": "None"
-  },
-  {
     "accessLevel": "public",
-    "description": "Item is accessible by everybody",
+    "description": "Document is public",
+    "documentStatus": "published",
     "id": "public",
-    "documentStatus": "published",
-    "name": "Public"
+    "metadata": {
+      "author": "system",
+      "created": "1968-12-10T00:00:00.000+00:00",
+      "editor": "nobody",
+      "modified": "1968-12-10T00:00:00.000+00:00",
+      "published": "1968-12-10T00:00:00.000+00:00",
+      "publisher": "system"
+    },
+    "name": "Public",
+    "owner": "system"
   },
   {
     "accessLevel": "public",
-    "description": "Item is accessible by guests",
-    "id": "guest",
+    "description": "Document is for unauthenticated people",
     "documentStatus": "published",
-    "name": "Guest"
+    "id": "unauthenticated",
+    "metadata": {
+      "author": "system",
+      "created": "1968-12-10T00:00:00.000+00:00",
+      "editor": "nobody",
+      "modified": "1968-12-10T00:00:00.000+00:00",
+      "published": "1968-12-10T00:00:00.000+00:00",
+      "publisher": "system"
+    },
+    "name": "Unauthenticated",
+    "owner": "system"
   },
   {
     "accessLevel": "public",
-    "description": "Item is accessible by authenticated people",
+    "description": "Document is for authenticated people",
+    "documentStatus": "published",
     "id": "authenticated",
-    "documentStatus": "published",
-    "name": "Authenticated"
+    "metadata": {
+      "author": "system",
+      "created": "1968-12-10T00:00:00.000+00:00",
+      "editor": "nobody",
+      "modified": "1968-12-10T00:00:00.000+00:00",
+      "published": "1968-12-10T00:00:00.000+00:00",
+      "publisher": "system"
+    },
+    "name": "Authenticated",
+    "owner": "system"
   },
   {
     "accessLevel": "public",
-    "description": "Item is accessible by people who know the URI",
+    "description": "Document is private",
+    "documentStatus": "published",
     "id": "private",
-    "documentStatus": "published",
-    "name": "Private"
+    "metadata": {
+      "author": "system",
+      "created": "1968-12-10T00:00:00.000+00:00",
+      "editor": "nobody",
+      "modified": "1968-12-10T00:00:00.000+00:00",
+      "published": "1968-12-10T00:00:00.000+00:00",
+      "publisher": "system"
+    },
+    "name": "Private",
+    "owner": "system"
   },
   {
-    "accessLevel": "public",
-    "description": "Item is accessible by the owner",
-    "id": "owner",
+    "accessLevel": "system",
+    "description": "Document is for system",
     "documentStatus": "published",
-    "name": "Owner"
-  },
-  {
-    "accessLevel": "none",
-    "description": "Item is accessible by administrators",
-    "id": "restricted",
-    "documentStatus": "published",
-    "name": "Restricted"
+    "id": "system",
+    "metadata": {
+      "author": "system",
+      "created": "1968-12-10T00:00:00.000+00:00",
+      "editor": "nobody",
+      "modified": "1968-12-10T00:00:00.000+00:00",
+      "published": "1968-12-10T00:00:00.000+00:00",
+      "publisher": "system"
+    },
+    "name": "System",
+    "owner": "system"
   }
 ]
