@@ -34,10 +34,6 @@
     "dataType": "User",
     "method": "authenticate"
   },
-  "/favicon.ico": {
-    "dataType": "AccessLevel",
-    "method": "skip"
-  },
   "/api/{dataType}": {
     "regex": "^\\/api\\/([^\\/:]+)$",
     "dataType": "{dataType}",
@@ -48,5 +44,9 @@
     "dataType": "{dataType}",
     "id": "{id}",
     "format": "json"
+  },
+  "/favicon.ico": {
+    "dataType": "AccessLevel",
+    "method": "skip"
   }
 }
