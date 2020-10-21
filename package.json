@@ -1,7 +1,7 @@
 {
   "name": "@cubo-cms/framework",
   "type": "module",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "Cubo CMS Framework Classes",
   "main": "index.mjs",
   "exports": {
