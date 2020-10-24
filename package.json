@@ -19,7 +19,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@cubo-cms/core": ">=0.0.9"
+    "@cubo-cms/core": ">=0.2"
   },
   "engines": {
     "node": ">=14.8"

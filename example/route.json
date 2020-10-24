@@ -1,41 +1,17 @@
 {
-  "/": {
-    "regex": "^\\/$",
-    "dataType": "Document"
-  },
-  "/favicon.ico": {
-    "method": "skip"
-  },
-  "/{dataType}": {
-    "dataType": "{dataType}"
-  },
-  "/{dataType}:{id}": {
-    "dataType": "{dataType}",
-    "id": "{id}"
-  },
-  "/{dataType}/:{id}": {
-    "dataType": "{dataType}",
-    "id": "{id}"
-  },
-  "/{dataType}/{filter}:{id}": {
-    "dataType": "{dataType}",
-    "filter": "{filter}",
-    "id": "{id}"
-  },
-  "/{dataType}/{filter}/:{id}": {
-    "dataType": "{dataType}",
-    "filter": "{filter}",
-    "id": "{id}"
-  },
-  "/User/authenticate": {
-    "dataType": "User",
-    "method": "authenticate"
-  },
-  "/api/{dataType}": {
+  "/": { "dataType": "Document" },
+  "/favicon.ico": { "method": "skip" },
+  "/{$dataType}": {},
+  "/{$dataType}:{$id}": {},
+  "/{$dataType}/:{$id}": {},
+  "/{$dataType}/{$filter}:{$id}": {},
+  "/{$dataType}/{$filter}/:{$id}": {},
+  "/User/authenticate": { "dataType": "User", "method": "authenticate" },
+  "/api/{$dataType}": {
     "dataType": "{dataType}",
     "render": "json"
   },
-  "/api/{dataType}:{id}": {
+  "/api/{$dataType}:{$id}": {
     "dataType": "{dataType}",
     "id": "{id}",
     "render": "json"
