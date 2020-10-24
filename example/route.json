@@ -3,50 +3,41 @@
     "regex": "^\\/$",
     "dataType": "Document"
   },
+  "/favicon.ico": {
+    "method": "skip"
+  },
   "/{dataType}": {
-    "regex": "^\\/([^\\/:]+)$",
     "dataType": "{dataType}"
   },
   "/{dataType}:{id}": {
-    "regex": "^\\/([^\\/:]+):([^\\/:]+)$",
     "dataType": "{dataType}",
     "id": "{id}"
   },
   "/{dataType}/:{id}": {
-    "regex": "^\\/([^\\/:]+)\\/:([^\\/:]+)$",
     "dataType": "{dataType}",
     "id": "{id}"
   },
   "/{dataType}/{filter}:{id}": {
-    "regex": "^\\/([^\\/:]+)\\/([^\\/:]+):([^\\/:]+)$",
     "dataType": "{dataType}",
     "filter": "{filter}",
     "id": "{id}"
   },
   "/{dataType}/{filter}/:{id}": {
-    "regex": "^\\/([^\\/:]+)\\/([^\\/:]+)\\/:([^\\/:]+)$",
     "dataType": "{dataType}",
     "filter": "{filter}",
     "id": "{id}"
   },
   "/User/authenticate": {
-    "regex": "^\\/User\\/authenticate$",
     "dataType": "User",
     "method": "authenticate"
   },
   "/api/{dataType}": {
-    "regex": "^\\/api\\/([^\\/:]+)$",
     "dataType": "{dataType}",
-    "format": "json"
+    "render": "json"
   },
   "/api/{dataType}:{id}": {
-    "regex": "^\\/api\\/([^\\/:]+):([^\\/:]+)$",
     "dataType": "{dataType}",
     "id": "{id}",
-    "format": "json"
-  },
-  "/favicon.ico": {
-    "dataType": "AccessLevel",
-    "method": "skip"
+    "render": "json"
   }
 }
