@@ -1,6 +1,6 @@
 {
   "GET /": { "dataType": "Document" },
-  "GET /favicon.ico": { "method": "skip" },
+  "GET /favicon.ico": { "dataType": "AccessLevel", "method": "skip" },
   "GET /{dataType}": {},
   "GET /{dataType}:{id}": {},
   "GET /{dataType}/:{id}": {},
