@@ -5,4 +5,4 @@ await Namespace.autoLoad();
 
 let app = new Application('#/example/application.json');
 
-app.run();
+app.start();
