@@ -1,14 +1,14 @@
 {
   "GET /": { "dataType": "Document" },
   "GET /favicon.ico": { "method": "skip" },
-  "GET /{/dataType}": {},
-  "GET /{/dataType}:{/id}": {},
-  "GET /{/dataType}/:{/id}": {},
-  "GET /{/dataType}/{/filter}:{/id}": {},
-  "GET /{/dataType}/{/filter}/:{/id}": {},
+  "GET /{dataType}": {},
+  "GET /{dataType}:{id}": {},
+  "GET /{dataType}/:{id}": {},
+  "GET /{dataType}/{filter}:{id}": {},
+  "GET /{dataType}/{filter}/:{id}": {},
   "POST /User/authenticate": { "dataType": "User", "method": "authenticate" },
-  "GET /api/{/dataType}": { "render": "json" },
-  "POST /api/{/dataType}": { "render": "json" },
-  "GET /api/{/dataType}:{/id}": { "render": "json" },
-  "PUT /api/{/dataType}:{/id}": { "render": "json" }
+  "GET /api/{dataType}": { "render": "json" },
+  "POST /api/{dataType}": { "render": "json" },
+  "GET /api/{dataType}:{id}": { "render": "json" },
+  "PUT /api/{dataType}:{id}": { "render": "json" }
 }
